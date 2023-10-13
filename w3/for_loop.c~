@@ -1,7 +1,0 @@
-#incldue <stdio.h>
-
-int main(int argc,char* argv[]){
-  int i;
-  for(i=0,printf("1 : %d",i);i<5,printf("2 : %d",i);i++,printf("3 : %d",i))
-    printf("inside : %d",i);
-}
